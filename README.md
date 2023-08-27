@@ -53,13 +53,13 @@ Everything is ready when you can see messages like on screenshot :-) . Please be
 ###### http://localhost:3000/ 
 Description: Returns string and send Session cookie
 
-- Method: GET
-success: 
+- Method: GET\
+success:\ 
 - Status code: 200
 - Response: `Hello :-)`
 
-- Method: POST
-success: 
+- Method: POST\
+success:\ 
 - Status code: 200
 - Response: `Cookie with userId is created.`
 - Response cookie:
@@ -73,8 +73,8 @@ fail:
 ###### http://localhost:3000/healthcheck
 Description: Checks if database is up and running
 
-- Method: GET 
-success: 
+- Method: GET\ 
+success:\ 
 - Status code: 200
 - Response: `{database: "OK",}`
 
@@ -93,8 +93,8 @@ Required parameters and type:
 `{ userId: string }`
 
 
-- Method: POST
-success: 
+- Method: POST\
+success:\ 
 - Status code: 200
 - Response: Returns new creates user
 
@@ -106,8 +106,8 @@ fail:
 ###### http://localhost:3000/users/get-users-data
 Description: Returns data for report
 
-- Method: GET
-success: 
+- Method: GET\
+success:\ 
 - Status code: 200
 - Response: `{listOfUsers: number, numberOfUsersWhichSawImageInPercentage: number}`
 
@@ -121,8 +121,8 @@ fail:
 `{ userId: string, userSawImage: boolean }`
 
 - Method: POST
-success: 
-- Status code: 200
+success:\ 
+- Status code: 200\
 - Response: Returns updated user
 
 fail: 
