@@ -9,6 +9,11 @@ It's an api which saves basic user information in database and returns session c
   
 ## Running docker container (docker compose)
 
+.env file is up to you to configure with credentials (only DB_PASSWORD, default user is root).
+
+To build containers I used Docker version 4.22.0
+https://docs.docker.com/desktop/release-notes/#4220
+
 ![Alt text](<Zrzut ekranu 2023-08-27 020737.png>)
   
 Linux bash is avialable on Windows :-) 
@@ -40,7 +45,7 @@ Everything is ready when you can see messages like on screenshot :-) .
 
 
 1. Application is a frontend app where you can start.
-2. PHP My Admin Panel is a nice tool to check database.
+2. PHP My Admin Panel is a nice tool to check database. root, configured DB_PASSWORD in .env file are your credentials to panel :-)
 3. 4. api and mysqldev are self described.
 
 
