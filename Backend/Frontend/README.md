@@ -10,9 +10,9 @@ Additionaly user can open report page to display this data :-).
 
 
 ```
-Npm install 
+npm install 
 ```
 
 ```
- npm start
+npm start
 ```
