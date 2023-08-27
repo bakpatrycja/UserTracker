@@ -14,7 +14,6 @@ It's an api which saves basic user information in database and returns session c
 To build containers I used Docker version 4.22.0
 https://docs.docker.com/desktop/release-notes/#4220
 
-![Alt text](<Zrzut ekranu 2023-08-27 020737.png>)
   
 Linux bash is avialable on Windows :-) 
 You can enable it here: https://www.geeksforgeeks.org/use-bash-shell-natively-windows-10/
@@ -25,7 +24,7 @@ In folder "Backend" open linux bash and run command:
 ```
  docker-compose -f docker-compose.yml up --build
 ```
-
+![Alt text](<Zrzut ekranu 2023-08-27 020737.png>)
 
 Please wait for applications running inside containers (they need some time to install all dependencies and run). 
 Everything is ready when you can see messages like on screenshot :-) .
