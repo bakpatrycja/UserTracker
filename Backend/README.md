@@ -27,7 +27,7 @@ In folder "Backend" open linux bash and run command:
 ![Alt text](<Zrzut ekranu 2023-08-27 020737.png>)
 
 Please wait for applications running inside containers (they need some time to install all dependencies and run). 
-Everything is ready when you can see messages like on screenshot :-) .
+Everything is ready when you can see messages like on screenshot :-) . Please be patient, I builded project on two different machines (gaming pc and laptop) and for laptop it took more time. 
   
 ![Alt text](<Zrzut ekranu 2023-08-27 004913.png>)
 
