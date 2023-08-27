@@ -51,34 +51,34 @@ Everything is ready when you can see messages like on screenshot :-) . Please be
 ## Api endpoints
 
 ###### http://localhost:3000/ 
-Description: Returns string and send Session cookie
+Description: Returns string and send Session cookie  
 
-Method: GET\
+Method: GET
 - success:
-Status code: 200
-Response: `Hello :-)`
+Status code: 200  
+Response: `Hello :-)`  
 
-Method: POST\
+Method: POST
 - success: 
-Status code: 200
-Response: `Cookie with userId is created.`
+Status code: 200  
+Response: `Cookie with userId is created.`  
 Response cookie:
-![Alt text](<Zrzut ekranu 2023-08-27 011619.png>)\
+![Alt text](<Zrzut ekranu 2023-08-27 011619.png>)
 - fail:
-Status code: 500
-Response: `Session with userId not created. Missing userId.`
+Status code: 500  
+Response: `Session with userId not created. Missing userId.`  
 
 
 ###### http://localhost:3000/healthcheck
-Description: Checks if database is up and running\
+Description: Checks if database is up and running  
 
-Method: GET\
+Method: GET
 - success:
-Status code: 200\
-Response: `{database: "OK",}`\
+Status code: 200  
+Response: `{database: "OK",}`  
 - fail:
-Status code: 500\
-Response: `{ server: "OK", database: "DOWN" }`\
+Status code: 500  
+Response: `{ server: "OK", database: "DOWN" }`  
 
 
 ###### http://localhost:3000/users/
@@ -86,43 +86,43 @@ route
 
 
 ###### http://localhost:3000/users/create-user
-Description: Creates new user in database.\ 
-Required parameters and type:\
+Description: Creates new user in database.  
+Required parameters and type:  
 `{ userId: string }`
 
 
-Method: POST\
+Method: POST
 - success:
-Status code: 200\
-Response: Returns new creates user\
+Status code: 200  
+Response: Returns new creates user  
 - fail: 
-Status code: 500\
-Response: Returns error\
+Status code: 500  
+Response: Returns error  
 
 
 ###### http://localhost:3000/users/get-users-data
-Description: Returns data for report\
+Description: Returns data for report
 
-Method: GET\
+Method: GET
 - success:
-Status code: 200\
-Response: `{listOfUsers: number, numberOfUsersWhichSawImageInPercentage: number}`\
+Status code: 200  
+Response: `{listOfUsers: number, numberOfUsersWhichSawImageInPercentage: number}`  
 - fail: 
-Status code: 500\
-Response: Returns error\
+Status code: 500  
+Response: Returns error  
 
 ###### http://localhost:3000/users/update-user
 Description: Updates user's property "userSawImage".
 Required parameters and type:
 `{ userId: string, userSawImage: boolean }`
 
-Method: POST\
-- success:
-Status code: 200\
-Response: Returns updated user\
-- fail: 
-Status code: 500\
-Response: Returns error\
+Method: POST
+- success
+Status code: 200  
+Response: Returns updated user  
+- fail
+Status code: 500  
+Response: Returns error  
 
 
 ## Run Api locally
