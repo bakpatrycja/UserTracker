@@ -54,30 +54,30 @@ Everything is ready when you can see messages like on screenshot :-) . Please be
 Description: Returns string and send Session cookie  
 
 Method: GET
-- success:
-Status code: 200  
-Response: `Hello :-)`  
+- success:<br> 
+Status code: 200  <br> 
+Response: `Hello :-)`  <br> 
 
 Method: POST
-- success: 
-Status code: 200  
-Response: `Cookie with userId is created.`  
-Response cookie:
+- success: <br> 
+Status code: 200  <br> 
+Response: `Cookie with userId is created.`  <br> 
+Response cookie:<br> 
 ![Alt text](<Zrzut ekranu 2023-08-27 011619.png>)
-- fail:
-Status code: 500  
-Response: `Session with userId not created. Missing userId.`  
+- fail:<br> 
+Status code: 500  <br> 
+Response: `Session with userId not created. Missing userId.` <br>  
 
 
 ###### http://localhost:3000/healthcheck
 Description: Checks if database is up and running  
 
 Method: GET
-- success:
-Status code: 200  
-Response: `{database: "OK",}`  
-- fail:
-Status code: 500  
+- success:<br> 
+Status code: 200  <br> 
+Response: `{database: "OK",}`  <br> 
+- fail:<br> 
+Status code: 500  <br> 
 Response: `{ server: "OK", database: "DOWN" }`  
 
 
@@ -92,24 +92,24 @@ Required parameters and type:
 
 
 Method: POST
-- success:
-Status code: 200  
-Response: Returns new creates user  
-- fail: 
-Status code: 500  
-Response: Returns error  
+- success:<br> 
+Status code: 200  <br> 
+Response: Returns new creates user  <br> 
+- fail: <br> 
+Status code: 500  <br> 
+Response: Returns error  <br> 
 
 
 ###### http://localhost:3000/users/get-users-data
 Description: Returns data for report
 
 Method: GET
-- success:
-Status code: 200  
+- success:<br> 
+Status code: 200  <br> 
 Response: `{listOfUsers: number, numberOfUsersWhichSawImageInPercentage: number}`  
-- fail: 
-Status code: 500  
-Response: Returns error  
+- fail: <br> 
+Status code: 500  <br> 
+Response: Returns error  <br> 
 
 ###### http://localhost:3000/users/update-user
 Description: Updates user's property "userSawImage".
@@ -117,12 +117,12 @@ Required parameters and type:
 `{ userId: string, userSawImage: boolean }`
 
 Method: POST
-- success
-Status code: 200  
-Response: Returns updated user  
-- fail
-Status code: 500  
-Response: Returns error  
+- success<br> 
+Status code: 200  <br> 
+Response: Returns updated user  <br> 
+- fail<br> 
+Status code: 500  <br> 
+Response: Returns error  <br> 
 
 
 ## Run Api locally
