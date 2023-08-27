@@ -27,21 +27,17 @@ watch(currentUser, (updatedCurrentUser) => {
 })
 
 
+const detectIfUserScrolledImageAndMakeRequest = (event) => {
+   const scrollTop = event.target.scrollTop;
 
-  const detectIfUserScrolledImageAndMakeRequest = (event) => {
-    const scrollTop = event.target.scrollTop;
-
-     if (scrollTop >= picturePixelsFromTop.value && sendRequest) {
+   if (scrollTop >= picturePixelsFromTop.value && sendRequest) {
       sendRequest = false;
       updateUserWhenScrollToImage(currentUser.value);
-     }
+   }
 }
-
-
 </script>
 
 <template>
-
 <div  @scroll="detectIfUserScrolledImageAndMakeRequest" id="content"> 
     <p>Hey there! Have you heard about online advertising?
        It's a great way to get your business noticed on the internet. 
