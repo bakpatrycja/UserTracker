@@ -63,8 +63,7 @@ success:
 - Status code: 200
 - Response: `Cookie with userId is created.`
 - Response cookie:
-![Alt text](<Zrzut ekranu 2023-08-27 011619.png>)
-
+![Alt text](<Zrzut ekranu 2023-08-27 011619.png>)\
 fail:
 - Status code: 500
 - Response: `Session with userId not created. Missing userId.`
@@ -76,8 +75,7 @@ Description: Checks if database is up and running
 - Method: GET\ 
 success:
 - Status code: 200
-- Response: `{database: "OK",}`
-
+- Response: `{database: "OK",}`\
 fail:
 - Status code: 500
 - Response: `{ server: "OK", database: "DOWN" }`
@@ -96,8 +94,7 @@ Required parameters and type:
 - Method: POST\
 success:
 - Status code: 200
-- Response: Returns new creates user
-
+- Response: Returns new creates user\
 fail: 
 - Status code: 500
 - Response: Returns error
@@ -109,8 +106,7 @@ Description: Returns data for report
 - Method: GET\
 success:
 - Status code: 200
-- Response: `{listOfUsers: number, numberOfUsersWhichSawImageInPercentage: number}`
-
+- Response: `{listOfUsers: number, numberOfUsersWhichSawImageInPercentage: number}`\
 fail: 
 - Status code: 500
 - Response: Returns error
@@ -123,8 +119,7 @@ fail:
 - Method: POST\
 success:
 - Status code: 200
-- Response: Returns updated user
-
+- Response: Returns updated user\
 fail: 
 - Status code: 500
 - Response: Returns error
