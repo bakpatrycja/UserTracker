@@ -43,9 +43,9 @@ Everything is ready when you can see messages like on screenshot :-) . Please be
 4. mysqldev: http://localhost:51744/
 
 
-1. Application is a frontend app where you can start.
-2. PHP My Admin Panel is a nice tool to check database. root, configured DB_PASSWORD in .env file are your credentials to panel :-)
-3. 4. api and mysqldev are self described.
+Application is a frontend app where you can start.<br> 
+PHP My Admin Panel is a nice tool to check database. root, configured DB_PASSWORD in .env file are your credentials to panel :-)<br> 
+Api and mysqldev are self described.<br> 
 
 
 ## Api endpoints
