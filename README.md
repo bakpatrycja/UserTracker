@@ -54,12 +54,12 @@ Everything is ready when you can see messages like on screenshot :-) . Please be
 Description: Returns string and send Session cookie
 
 - Method: GET\
-success:\ 
+success:
 - Status code: 200
 - Response: `Hello :-)`
 
 - Method: POST\
-success:\ 
+success: 
 - Status code: 200
 - Response: `Cookie with userId is created.`
 - Response cookie:
@@ -74,7 +74,7 @@ fail:
 Description: Checks if database is up and running
 
 - Method: GET\ 
-success:\ 
+success:
 - Status code: 200
 - Response: `{database: "OK",}`
 
@@ -88,13 +88,13 @@ route
 
 
 ###### http://localhost:3000/users/create-user
-Description: Creates new user in database 
+Description: Creates new user in database. 
 Required parameters and type:
 `{ userId: string }`
 
 
 - Method: POST\
-success:\ 
+success:
 - Status code: 200
 - Response: Returns new creates user
 
@@ -107,7 +107,7 @@ fail:
 Description: Returns data for report
 
 - Method: GET\
-success:\ 
+success:
 - Status code: 200
 - Response: `{listOfUsers: number, numberOfUsersWhichSawImageInPercentage: number}`
 
@@ -120,9 +120,9 @@ fail:
 - Required parameters and type:
 `{ userId: string, userSawImage: boolean }`
 
-- Method: POST
-success:\ 
-- Status code: 200\
+- Method: POST\
+success:
+- Status code: 200
 - Response: Returns updated user
 
 fail: 
